@@ -29,6 +29,7 @@ q = zeros(r+1,1); % plot storage.
 
 norm_error = zeros(r,1);
 norm_xa = zeros(r,1);
+
 norm_ra = zeros(r,1);
 
 for j = 1:r
@@ -65,6 +66,7 @@ label_d = .001*max(norm_xa);
 for j = 1:r
      plot(norm_ra(j),norm_xa(j),'rs');
      text(norm_ra(j),norm_xa(j)+label_d,num2str(j));
+
 end
 
 title('$$\Vert\mathbf{x}_\alpha\Vert_2$$ \textbf{versus} $$\Vert\mathbf{r}_\alpha\Vert_2$$','Interpreter','latex');
