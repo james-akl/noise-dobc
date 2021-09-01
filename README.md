@@ -17,3 +17,6 @@ The system is simulated and solved under four disturbance scenarios:
 * Sinusoidal disturbance
 * Gaussian random disturbance
 
+The project page containing the mathematical derivations and formulations will be published gradually.
+
+The project scripts have been implemented in MATLAB and are mostly compatible with open-source MATLAB cognates such as [GNU Octave](https://www.gnu.org/software/octave/).
