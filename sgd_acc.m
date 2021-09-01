@@ -1,6 +1,5 @@
 function [X] = sgd_acc(G,y,stop)
-%% DESCRIPTION
-% Computes the solution using Stochastic Gradient Descent.
+%% DESCRIPTION Computes the solution using Stochastic Gradient Descent.
 % Stores all iterates of 'stop' steps.
 % 'acc' stands for accumulated.
 % Estimates the largest singular value to obtain an upper bound.
