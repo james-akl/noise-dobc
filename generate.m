@@ -6,8 +6,8 @@ function [G,y,u,d] = generate(N,q)
 %    f(t)   = u(t) + d(t),
 %    y(s)   = integral(K(s,t) f(t), dt).
 % t-discretization interval is [t_1, t_N].
-% s-discretization interval is [t_1, t_N/2].
-% Interpreation: signal ampltiude caps halfway, at t_N/2.
+% s-discretization interval is [t_1, t_N / 2].
+% Interpreation: signal ampltiude caps halfway, at t_N / 2.
 
 % Discretization scheme: Rectangular midpoint quadrature rule.
 

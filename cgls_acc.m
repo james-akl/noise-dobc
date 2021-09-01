@@ -1,6 +1,6 @@
 function [X] = cgls_acc(G,y)
 %% DESCRIPTION
-% Computes the CGLS and stores all iterates of 'N' steps.
+% Computes the solution using Conjugate Gradient Least Squares (CGLS) and stores all iterates of 'N' steps.
 % 'acc' stands for accumulated.
 
 %% BODY
