@@ -2,7 +2,7 @@
 
 This project explores **Computational Inverse Problems** techniques and formulations as applied to Disturbance Observer-Based Control (DOBC).
 
-[Project Page](https://jamesakl.com/noise-dobc) | [PDF](https://jamesakl.com/noise-dobc.pdf)
+[**Project Page**](https://jamesakl.com/noise-dobc) | [**PDF Report**](https://jamesakl.com/noise-dobc.pdf)
 
 The DOBC noise estimation problem is restructured into an Inverse Problems formulation, specifically a discretized Fredholm integral equation of the first kind. The system is thus transformed into an ill-posed linear system.
 
